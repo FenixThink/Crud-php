@@ -1,0 +1,214 @@
+body {
+    background-image: url(./mars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+}
+
+.main {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.form {
+    background-color: rgba(255, 255, 255, 0.526);
+    width: 50%;
+    height: 75vh;
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+}
+
+label {
+    margin-bottom: 3%;
+    display: block;
+}
+
+input {
+    margin-bottom: 3%;
+    width: 50%;
+    padding: 2%;
+}
+.btn-3{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+.Create{
+    text-decoration: none;
+    background-color: none;
+
+    cursor: pointer;
+    color: #fff;   
+    font-size: 0.9em;
+    font-weight: bold;
+/*     display: block; */
+    text-transform: uppercase;
+}
+button,
+button::after,
+.Create,
+.Create::after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+button {
+    width: 35%;
+    padding: 2%;
+    background-color: none;
+    cursor: pointer;
+    border: 3px solid ;
+    border-radius: 5px;
+    color: #fff;   
+    font-size: 1.6em;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+}
+
+button::before,
+button::after,
+.Create::before,
+.Create::after {
+    background-color: #00D8FF;
+    content: '';
+    position: absolute;
+    z-index: -1;
+}
+
+button:hover,
+.Create:hover {
+    color: #202435;
+}
+
+.btn-3::after,
+.Create::after {
+    height: 0;
+    left: 50%;
+    top: 50%;
+    width: 0;
+}
+.btn-3:hover:after
+.Create:hover::after{
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 5%;
+}
+img {
+    border-radius: 50%;
+    width: 15%;
+    margin-bottom: 5%;
+    height: 20%;
+}
+#che{
+    margin-right: -23%;
+    margin-left: -47%;
+}
+@media (max-height: 690px) {
+    .title{
+        margin-top: -6%;
+    }
+    body {
+        background-image: url(./mars.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: initial;
+    }
+    a{
+        display: block;
+    }
+    .main {
+        margin-top: 3%;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .form {
+        background-color: rgba(255, 255, 255, 0.526);
+        width: 50%;
+        height: 71vh;
+        margin: auto;
+        padding: 5%;
+        text-align: center;
+    }
+    
+    label {
+        margin-bottom: 2%;
+        display: block;
+    }
+    .btn-3{
+        margin-top: -1%;
+    margin-bottom: 2%;
+
+    }
+    input {
+        margin-bottom: 5%;
+        width: 50%;
+        padding: 1%;
+    }
+    button,
+    button::after {
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    
+    button {
+        width: 35%;
+        padding: 2%;
+        background-color: none;
+        cursor: pointer;
+        border: 3px solid ;
+        border-radius: 5px;
+        color: #fff;   
+        font-size: 1.6em;
+        font-weight: bold;
+        position: relative;
+        text-transform: uppercase;
+    }
+    
+    button::before,
+    button::after {
+        background-color: #00D8FF;
+        content: '';
+        position: absolute;
+        z-index: -1;
+    }
+    
+    button:hover {
+        color: #202435;
+    }
+    
+    .btn-3::after {
+        height: 0;
+        left: 50%;
+        top: 50%;
+        width: 0;
+    }
+    .btn-3:hover:after{
+        height: 100%;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    
+    img {
+        border-radius: 50%;
+        width: 15%;
+        margin-bottom: 3%;
+        height: 20%;
+    }
+    #che{
+        margin-right: -23%;
+        margin-left: -47%;
+    }
+}
